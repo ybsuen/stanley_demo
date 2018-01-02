@@ -24,7 +24,7 @@ $(document).ready(function() {
      // $.getJSON('document2.json', function(obj) { 
       // $.getJSON('http://localhost/d756a/fehd-json-view2.json', function(obj) { 
       // $.getJSON('http://dev-com5961a.pantheonsite.io/fehd-json-view2', function(obj) {   
-      $.getJSON('http://localhost/d756a/product_count.json', function(obj) {
+      $.getJSON('http://dev-com5961a.pantheonsite.io/product_count.json', function(obj) {
       $("#lesson").append("<ul>");
       // $.each(obj, function(key, value) {
       // $.each(obj.statuses, function(key,value) {
@@ -38,7 +38,7 @@ $(document).ready(function() {
   }); /* End getdata */
 
   $("#cleardata").click(function(){
-    $("#box1").html('');
+    $("#box1").html('You an check out the product table from the menu. The red "Get Data" button below will let you aggregate the items by product category. <br/><br/>');
   });
   
         // alert("Menu clicked!");      

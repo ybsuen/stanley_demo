@@ -2,7 +2,7 @@ $(document).ready(function(){
       $('#data-table').DataTable({  
            // "ajax"     :     "company_data.json",  
            // "ajax"     :     "http://localhost/workshop2/company_data.json",
-          "ajax"     :     "http://localhost/d756a/company-product.json",
+          "ajax"     :     "http://dev-com5961a.pantheonsite.io/company-product.json",
            "pageLength": 5,
            "columns"     :     [  
            /*
