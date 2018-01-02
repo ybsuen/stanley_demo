@@ -1,1 +1,1 @@
-# stanley_demo
+# Bootstrap Stanley Template Demo
