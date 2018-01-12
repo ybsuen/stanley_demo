@@ -20,7 +20,7 @@ $(document).ready(function() {
   $("#getdata").click(function(){
  
       $("#box1").html('You an check out the product table from the menu. The red "Get Data" button below will let you aggregate the items by product category. <br/><br/>');
-      $.getJSON('http://dev-com5961a.pantheonsite.io/product_count.json', function(obj) {  
+      $.getJSON('http://dev-com5961a.pantheonsite.io/product_count.json', function(obj) {
       $("#lesson").append("<ul>");
         $.each(obj.json, function(key,value) {
         $("#box1").append("<li>" + value.x + "(" + value.Total_Count + ")" + "</li>");
