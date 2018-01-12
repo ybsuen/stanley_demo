@@ -8,12 +8,12 @@
         <meta name="description" content="">
         <meta name="author" content="">
         <link rel="shortcut icon" href="../../docs-assets/ico/favicon.png">
-        <title>STANLEY - Free Bootstrap Theme</title>
+        <title>JQueryTable Demo</title>
         <!-- Bootstrap core CSS -->
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>  
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>  
-        <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/r/bs-3.3.5/jq-2.1.4,dt-1.10.8/datatables.min.css"/>  
-        <script type="text/javascript" src="https://cdn.datatables.net/r/bs-3.3.5/jqc-1.11.3,dt-1.10.8/datatables.min.js"></script>  
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/r/bs-3.3.5/jq-2.1.4,dt-1.10.8/datatables.min.css">
+        <script type="text/javascript" src="https://cdn.datatables.net/r/bs-3.3.5/jqc-1.11.3,dt-1.10.8/datatables.min.js"></script>
         <link href="assets/css/style2.css" rel="stylesheet" type="text/css">
         <link href="assets/css/main.css" rel="stylesheet">
         <script src="assets/js/hover.zoom.js"></script>
@@ -38,17 +38,19 @@
                             <a href="work.html">Work</a>
                         </li>
                         <li>
+                            <a href="chart.html">Chart</a>
+                        </li>
+                        <li>
                             <a href="table.html">Table</a>
                         </li>
                         <li>
                             <a href="map.html">Map</a>
                         </li>
-                         <li>
+                        <li>
                             <a href="map3.html">Map 2</a>
                         </li>
-                         <li><a href="mytimeline.html">Timeline</a></li>
                         <li>
-                            <a href="chart.html">Chart</a>
+                            <a href="mytimeline.html">Timeline</a>
                         </li>
                         <li>
                             <a href="contact.html">Contact</a>
@@ -59,31 +61,46 @@
             </div>
         </div>
         <!-- +++++ Welcome Section +++++ -->
-        <div class='box'><h2>jQuery DataTable Demo</h2></div>
+        <div class="box">
+            <h2>Product Table Demo Using jQuery DataTable</h2>
+        </div>
         <div id="ww">
             <div class="container">
-				<div class="container-fluid"> 
-				   <div class="col-sm-12">
-		                <div class="table-responsive">  
-		                <table id="data-table" class="table table-bordered">  
-		                     <thead>  
-		                          <tr>  
-		                               <!--th>Name</th-->  
-		                               <!--th>Gender</th-->  
-		                               <!--th>Designation</th-->
-		                               <th>Customer</th>  
-		                               <th>Product code</th>
-		                               <th>Number</th>  
-		                               <th>Address</th>
-		                               <th>City</th>  
-		                               <th>Country</th>  
-		                               <th>Contact</th>  
-		                          </tr>  
-		                     </thead>  
-		                </table>
-		                </div>
-				    </div>              
-				  </div>
+                <div class="container-fluid">
+                    <div class="col-sm-12">
+                        <div class="container">
+                            <div class="row" draggable="true"><div style="margin-left:1.5%;">The following data comes from this
+                                <a href="http://d3-media.blogspot.hk/2013/11/how-to-refine-your-data.html"
+                                target="_blank">Google Refine tutorial (Thanks to d3-Media!)</a>, which provides a short excercise for beginners to master Refine for
+                                data cleaning quickly. The cleaned data was later imported into a Drupal
+                                database for front-end presentation that you now see.</div>
+                            </div>
+                            <br>
+                            <div class="row" style="">
+                                <div class="col-md-12">
+                                    <div class="table-responsive">
+                                        <table id="data-table" class="table table-bordered">
+                                            <thead>
+                                                <tr>
+                                                    <!--th>Name</th-->
+                                                    <!--th>Gender</th-->
+                                                    <!--th>Designation</th-->
+                                                    <th>Customer</th>
+                                                    <th>Product code</th>
+                                                    <th>Number</th>
+                                                    <th>Address</th>
+                                                    <th>City</th>
+                                                    <th>Country</th>
+                                                    <th>Contact</th>
+                                                </tr>
+                                            </thead>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
             <!-- /container -->
         </div>

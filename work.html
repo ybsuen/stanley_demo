@@ -8,13 +8,13 @@
         <meta name="description" content="">
         <meta name="author" content="">
         <link rel="shortcut icon" href="../../docs-assets/ico/favicon.png">
-        <title>STANLEY - Free Bootstrap Theme</title>
+        <title>JQuery + SQL Aggregation</title>
         <!-- Bootstrap core CSS -->
- 		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-  		<!--script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script-->
-  		<script src="assets/js/app.js"></script>
-  		<link href="assets/css/style2.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <!--script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script-->
+        <script src="assets/js/app.js"></script>
+        <link href="assets/css/style2.css" rel="stylesheet" type="text/css">
         <!-- Custom styles for this template -->
         <link href="assets/css/main.css" rel="stylesheet">
         <script src="assets/js/hover.zoom.js"></script>
@@ -45,6 +45,9 @@
                             <a href="work.html">Work</a>
                         </li>
                         <li>
+                            <a href="chart.html">Chart</a>
+                        </li>
+                        <li>
                             <a href="table.html">Table</a>
                         </li>
                         <li>
@@ -55,9 +58,6 @@
                         </li>
                         <li><a href="mytimeline.html">Timeline</a></li>
                         <li>
-                            <a href="chart.html">Chart</a>
-                        </li>
-                        <li>
                             <a href="contact.html">Contact</a>
                         </li>
                     </ul>
@@ -66,35 +66,36 @@
             </div>
         </div>
         <!-- +++++ Welcome Section +++++ -->
-        <div class='box'><h2>jQuery Demo</h2></div>
+        <div class='box'><h2>jQuery + SQL Aggregation Demo</h2></div>
         <div id="ww">
             <div class="container">
-			<div class="container-fluid">
-			  <div class="row">
-			    <div class="col-sm-8"><div class='box'><h2>Product Count</h2></div><br>
-			      <div class="desc" id="box1">
-			        Lorem ipsum dolor sit amet, consectetur adipiscing elit. In molestie nulla mollis risus rhoncus, sed sagittis dui condimentum. Curabitur quis nunc nisl. Nam quis faucibus ipsum. In hac habitasse platea dictumst. Duis vehicula nec turpis vitae venenatis. Donec pulvinar non enim quis malesuada. Ut sit amet lacus quis orci malesuada consequat sit amet eu metus. Phasellus volutpat faucibus ipsum, auctor lobortis mauris rhoncus non. Aliquam eget nibh nec sapien auctor ullamcorper eget a ligula. Quisque volutpat suscipit nisi id ultrices. Vivamus sapien sapien, accumsan ac pellentesque quis, porttitor vel dolor.
-			      </div>
-			    </div>
-			    <div class="col-sm-4"><div class='box'><h2>Recent Updates</h2></div><br>
-			        <div class="title">August 2016</div>
-			          <p>
-			            <div class="desc">
-			              Lorem ipsum dolor sit amet, consectetur adipiscing elit. In molestie nulla mollis risus rhoncus, sed sagittis dui condimentum. Curabitur quis nunc nisl. Nam quis faucibus ipsum. In hac habitasse platea dictumst. Duis vehicula nec turpis vitae venenatis. Donec pulvinar non enim quis malesuada.
-			            </div>           
-			          </p>
-			        <div class="title">July 2016</div>
-			          <p>
-			            <div class="desc">
-			              Lorem ipsum dolor sit amet, consectetur adipiscing elit. In molestie nulla mollis risus rhoncus, sed sagittis dui condimentum. Curabitur quis nunc nisl. Nam quis faucibus ipsum. In hac habitasse platea dictumst. Duis vehicula nec turpis vitae venenatis. Donec pulvinar non enim quis malesuada.
-			            </div>
-			          </p>
-			        </div><!-- col-sm-4-->    
-			    </div><!-- row -->
-			    <div id="play">
-			     <button class="btn btn-primary" id="hide_me">Hide Me</button>&nbsp;<button class="btn btn-success" id="show_me">Show Me</button>&nbsp;<button class="btn btn-danger" id="getdata">Get Data</button>&nbsp;<button class="btn btn-info" id="cleardata">Clear Data</button>  
-			    </div> 
-			  </div><!-- container fluid -->
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-sm-8"><div class='box'><h2>Aggregation Count of Items From Product Table</h2></div><br>
+                  <div class="desc" id="box1">
+                    You an check out the product table from the menu. The red "Get Data" button below will let you aggregate the items by product category.
+                    <br/><br/>
+                  </div>
+                </div>
+                <div class="col-sm-4"><div class='box'><h2>Visualization Demo</h2></div><br>
+                    <div class="title">January 11, 2018</div>
+                      <p>
+                        <div class="desc">
+                          Welcome to try out these simple visualization demos which utilize several popular Javascript/JQuery libraries for presenting data.
+                        </div>           
+                      </p>
+                    <div class="title">January 11, 2018</div>
+                      <p>
+                        <div class="desc">
+                          These libraries include StorymapJS, TimelineJS, JQuery DatatableJS, Leaflet, and D3C3.
+                        </div>
+                      </p>
+                    </div><!-- col-sm-4-->    
+                </div><!-- row -->
+                <div id="play">
+                 <button class="btn btn-primary" id="hide_me">Hide Me</button>&nbsp;<button class="btn btn-success" id="show_me">Show Me</button>&nbsp;<button class="btn btn-danger" id="getdata">Get Data</button>&nbsp;<button class="btn btn-info" id="cleardata">Clear Data</button>  
+                </div> 
+              </div><!-- container fluid -->
             </div>
             <!-- /container -->
         </div>
