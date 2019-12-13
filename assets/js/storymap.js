@@ -33,7 +33,7 @@ var storymap_data = {
         line: true
       },
       media: {
-        url: "http://www.bschool.cuhk.edu.hk/program/ibba/content/upload/201408/home_banner_Y8A8606.jpg",
+        url: "https://www.bschool.cuhk.edu.hk/wp-content/uploads/ContactUs_Hero01.png",
         type: 		"image",
         credit: "CUHK",
         caption: "Cheng Yu Tung Building, School of Busness."
